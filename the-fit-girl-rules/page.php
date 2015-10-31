@@ -17,38 +17,38 @@
 
 
 
-	<h1><?php the_title(); ?></h1>
+<h1><?php the_title(); ?></h1>
 
 <?php } ?>
 
 <!-- BEGIN #page -->
 <div id="page" class="no-responsive hfeed">
 
-<!-- BEGIN #main -->
-<div id="main">
-	
-	<?php // START the loop ?>
-	<?php while (have_posts()) : the_post(); ?>
+	<!-- BEGIN #main -->
+	<div id="main">
+		
+		<?php // START the loop ?>
+		<?php while (have_posts()) : the_post(); ?>
 
-		<?php if (get_post_meta($post->ID, 'lolfmkbox_page_margin_check', true) == 'yes') {
-			$lol_page_margin = 'no-margin';
-		} else {
-			$lol_page_margin = '';
-		} ?>
+			<?php if (get_post_meta($post->ID, 'lolfmkbox_page_margin_check', true) == 'yes') {
+				$lol_page_margin = 'no-margin';
+			} else {
+				$lol_page_margin = '';
+			} ?>
 
-		<!-- BEGIN #content -->
-		<div id="content" class="<?php echo $lol_page_margin; ?>" role="main">
+			<!-- BEGIN #content -->
+			<div id="content" class="<?php echo $lol_page_margin; ?>" role="main">
 
-			<?php get_template_part('content/content', 'page'); ?>
+				<?php get_template_part('content/content', 'page'); ?>
 
-		</div>
-		<!-- END #content -->
-				
-	<?php endwhile; ?>
-	<?php // END the loop ?>
+			</div>
+			<!-- END #content -->
+			
+		<?php endwhile; ?>
+		<?php // END the loop ?>
 
-<!-- END #main -->
-</div>
+		<!-- END #main -->
+	</div>
 
 </div>
 <!-- END #page -->

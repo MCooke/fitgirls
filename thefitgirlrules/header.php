@@ -54,6 +54,7 @@ $animations_top_header_check = ((get_option('lol_check_top_header')  == 'true') 
 		<link rel="shortcut icon" href="<?php echo get_option('lol_custom_favicon'); ?>">
 	<?php } ?>
 	<script>document.documentElement.className += " js";</script>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:300|Roboto+Condensed:400,700,400italic' rel='stylesheet' type='text/css'>
 	<!-- BEGIN WP -->
 	<?php wp_head(); ?>
 	<!-- END WP -->
