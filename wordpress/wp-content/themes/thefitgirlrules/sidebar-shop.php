@@ -12,7 +12,7 @@
 ?>
 
 <!-- BEGIN col-3 -->
-<div class="side col-3">
+<div class="side col-xs-3">
 
 	<!-- BEGIN #sidebar -->
 	<div id="sidebar" role="complementary">

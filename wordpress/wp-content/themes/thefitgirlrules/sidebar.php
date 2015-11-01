@@ -11,8 +11,8 @@
  */
 ?>
 
-	<!-- BEGIN col-3 -->
-	<div class="col-3">
+	<!-- BEGIN col-xs-3 -->
+	<div class="col-xs-3">
 
 		<!-- BEGIN #sidebar -->
 		<div id="sidebar" role="complementary">
@@ -26,7 +26,7 @@
 		</div>
 		<!-- END #sidebar -->
 
-	<!-- END col-3 -->
+	<!-- END col-xs-3 -->
 	</div>
 
 <!-- END row -->

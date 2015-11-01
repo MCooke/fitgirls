@@ -28,7 +28,7 @@ if(function_exists('putRevSlider')) {
 			<div class="link-slider">
 				<div class="container">
 					<div class="row">
-						<div class="col-12">
+						<div class="col-xs-12">
 							<a href="#page"><?php echo get_post_meta($post->ID, 'lolfmkbox_page_link_slider', true); ?><i class="fa fa-chevron-circle-down"></i></a>
 						</div>
 					</div>

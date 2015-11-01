@@ -20,34 +20,34 @@
 			<!-- BEGIN row -->
 			<div class="row">
 			
-				<!-- BEGIN col-3 -->
-				<div class="col-3">
+				<!-- BEGIN col-xs-3 -->
+				<div class="col-xs-3">
 					<div class="footer-widget footer-widget-1">
 						<?php dynamic_sidebar('Footer 1'); ?>
 					</div>
 				</div>
-				<!-- END col-3 -->
-				<!-- BEGIN col-3 -->
-				<div class="col-3">
+				<!-- END col-xs-3 -->
+				<!-- BEGIN col-xs-3 -->
+				<div class="col-xs-3">
 					<div class="footer-widget footer-widget-2">
 						<?php dynamic_sidebar('Footer 2'); ?>
 					</div>
 				</div>
-				<!-- END col-3 -->
-				<!-- BEGIN col-3 -->
-				<div class="col-3">
+				<!-- END col-xs-3 -->
+				<!-- BEGIN col-xs-3 -->
+				<div class="col-xs-3">
 					<div class="footer-widget footer-widget-3">
 						<?php dynamic_sidebar('Footer 3'); ?>
 					</div>
 				</div>
-				<!-- END col-3 -->
-				<!-- BEGIN col-3 -->
-				<div class="col-3">
+				<!-- END col-xs-3 -->
+				<!-- BEGIN col-xs-3 -->
+				<div class="col-xs-3">
 					<div class="footer-widget footer-widget-4">
 						<?php dynamic_sidebar('Footer 4'); ?>
 					</div>
 				</div>
-				<!-- END col-3 -->
+				<!-- END col-xs-3 -->
 			
 			</div>
 			<!-- END row -->
@@ -69,7 +69,7 @@
 			<!-- BEGIN row -->
 			<div class="row">
 
-				<div class="<?php echo (get_option('lol_check_social_footer')  == 'true') ? "col-6" : "col-12" ?>">
+				<div class="<?php echo (get_option('lol_check_social_footer')  == 'true') ? "col-xs-6" : "col-xs-12" ?>">
 					<div class="footer-bottom-copy">
 						<?php echo get_option('lol_footer_copy'); ?>
 					</div>
@@ -77,7 +77,7 @@
 
 				<?php if (get_option('lol_check_social_footer')  == 'true') { ?>
 
-					<div class="col-6">
+					<div class="col-xs-6">
 
 						<ul class="social-links">
 							<?php if (get_option('lol_f_facebook') != '') : ?>

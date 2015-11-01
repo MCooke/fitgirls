@@ -89,8 +89,8 @@ $has_cart_header = (lollum_check_is_woocommerce() && (get_option('lol_check_cart
 			<div class="container">
 				<!-- BEGIN row -->
 				<div class="row">
-					<!-- BEGIN col-12 -->
-					<div class="col-12">
+					<!-- BEGIN col-xs-12 -->
+					<div class="col-xs-12">
 						<div class="company-info">
 							<?php if (get_option('lol_tel_company') != '') : ?>
 								<div class="info"><i class="icon fa fa-phone"></i><?php echo get_option('lol_tel_company'); ?></div>
@@ -232,8 +232,8 @@ $has_cart_header = (lollum_check_is_woocommerce() && (get_option('lol_check_cart
 			<div class="container">
 				<!-- BEGIN row -->
 				<div class="row">
-					<!-- BEGIN col-12 -->
-					<div class="col-12">
+					<!-- BEGIN col-xs-12 -->
+					<div class="col-xs-12">
 						<!-- BEGIN #logo -->
 						<div id="logo">
 							<a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr( get_bloginfo('name', 'display') ); ?>">
@@ -277,7 +277,7 @@ $has_cart_header = (lollum_check_is_woocommerce() && (get_option('lol_check_cart
 						</nav>
 
 					</div>
-					<!-- END col-12 -->
+					<!-- END col-xs-12 -->
 				</div>
 				<!-- END row -->
 			</div>

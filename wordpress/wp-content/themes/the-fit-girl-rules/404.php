@@ -26,8 +26,8 @@ Template Name:     404
 
 	<!-- BEGIN row -->
 	<div class="row">
-		<!-- BEGIN col-12 -->
-		<div class="col-12">
+		<!-- BEGIN col-xs-12 -->
+		<div class="col-xs-12">
 	
 			<!-- BEGIN #content -->
 			<div id="content" role="main">
@@ -47,7 +47,7 @@ Template Name:     404
 			<!-- END #content -->
 
 		</div>
-		<!-- END col-12 -->
+		<!-- END col-xs-12 -->
 	<!-- END row -->
 	</div>
 

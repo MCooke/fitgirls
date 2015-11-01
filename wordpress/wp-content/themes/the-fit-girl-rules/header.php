@@ -95,8 +95,8 @@ $animations_top_header_check = ((get_option('lol_check_top_header')  == 'true') 
 					<div class="container">
 						<!-- BEGIN row -->
 						<div class="row">
-							<!-- BEGIN col-12 -->
-							<div class="col-12">
+							<!-- BEGIN col-xs-12 -->
+							<div class="col-xs-12">
 								<div class="newsletter">
 									<a href="http://eepurl.com/bbpNR5" target="_blank" class="newsletter_text">Join our newsletter</a>
 								</div>
@@ -158,7 +158,7 @@ $animations_top_header_check = ((get_option('lol_check_top_header')  == 'true') 
 			<header id="branding" role="banner">
 				<div class="container">
 					<div class="row">
-						<div class="col-12">
+						<div class="col-xs-12">
 
 							<a href="http://www.thefitgirlrules.com">
 								<div id="logo">

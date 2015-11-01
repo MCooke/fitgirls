@@ -84,7 +84,7 @@
 
 				<div class="row">
 
-					<div class="col-4">
+					<div class="col-xs-4">
 						<p class="comment-input">
 							<input type="text" name="author" id="author" value="<?php echo esc_attr($comment_author); ?>" size="22" tabindex="1" placeholder="name (*)">
 							<label for="author">
@@ -93,7 +93,7 @@
 						</p>
 					</div>
 				
-					<div class="col-4">
+					<div class="col-xs-4">
 						<p class="comment-input">
 							<input type="text" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" size="22" tabindex="2" placeholder="e-mail (*)">
 							<label for="email">
@@ -102,7 +102,7 @@
 						</p>
 					</div>
 				
-					<div class="col-4">
+					<div class="col-xs-4">
 						<p class="comment-input">
 							<input type="text" name="website" id="website" value="<?php echo esc_attr($comment_author_url); ?>" size="22" tabindex="3" placeholder="website">
 							<label for="website">

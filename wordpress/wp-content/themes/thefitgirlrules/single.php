@@ -17,14 +17,14 @@
 	<div class="container">
 		<!-- BEGIN row -->
 		<div class="row">
-			<!-- BEGIN col-12 -->
-			<div class="col-12">
+			<!-- BEGIN col-xs-12 -->
+			<div class="col-xs-12">
 				<div class="page-title">
 					<h1><?php the_title(); ?></h1>
 					<?php lollum_breadcrumb(); ?>
 				</div>
 			</div>
-			<!-- END col-12 -->
+			<!-- END col-xs-12 -->
 		</div>
 		<!-- END row -->
 	</div>
@@ -38,8 +38,8 @@
 	
 	<!-- BEGIN row -->
 	<div class="row">
-		<!-- BEGIN col-9 -->
-		<div class="col-9">
+		<!-- BEGIN col-xs-9 -->
+		<div class="col-xs-9">
 	
 			<!-- BEGIN #content -->
 			<div id="content" role="main">
@@ -79,7 +79,7 @@
 			<!-- END #content -->
 	
 		</div>
-		<!-- END col-9 -->
+		<!-- END col-xs-9 -->
 </div>
 	<?php get_sidebar(); ?>
 

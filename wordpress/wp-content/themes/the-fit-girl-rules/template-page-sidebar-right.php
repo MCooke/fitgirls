@@ -34,7 +34,7 @@ Template Name: Template Page Sidebar (Right)
 	<!-- BEGIN row -->
 	<div class="row">
 		<!-- BEGIN col-9 -->
-		<div class="col-9">
+		<div class="col-xs-9">
 
                     <?php
 		        if (get_option('lol_check_breadcumbs')  == 'true') {
@@ -69,7 +69,7 @@ Template Name: Template Page Sidebar (Right)
 	<?php // END the loop ?>
 
 		<!-- BEGIN col-3 -->
-		<div class="col-3">
+		<div class="col-xs-3">
 
 			<!-- BEGIN #secondary -->
 			<div id="sidebar"role="complementary">

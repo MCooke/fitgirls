@@ -28,7 +28,7 @@ if(function_exists('putRevSlider')) {
 			<div class="link-slider">
 				<div class="container">
 					<div class="row">
-						<div class="col-12">
+						<div class="col-xs-12">
 							<a href="#page"><?php echo get_post_meta($post->ID, 'lolfmkbox_page_link_slider', true); ?><i class="fa fa-chevron-circle-down"></i></a>
 						</div>
 					</div>
@@ -48,14 +48,14 @@ if(function_exists('putRevSlider')) {
 		<div class="container">
 			<!-- BEGIN row -->
 			<div class="row">
-				<!-- BEGIN col-12 -->
-				<div class="col-12">
+				<!-- BEGIN col-xs-12 -->
+				<div class="col-xs-12">
 					<div class="page-title">
 						<h1><?php the_title(); ?></h1>
 						<?php lollum_breadcrumb(); ?>
 					</div>
 				</div>
-				<!-- END col-12 -->
+				<!-- END col-xs-12 -->
 			</div>
 			<!-- END row -->
 		</div>
@@ -76,8 +76,8 @@ if(function_exists('putRevSlider')) {
 
 		<!-- BEGIN row -->
 		<div class="row">
-			<!-- BEGIN col-12 -->
-			<div class="col-12">
+			<!-- BEGIN col-xs-12 -->
+			<div class="col-xs-12">
 
 				<!-- BEGIN .entry-thumbnail -->
 				<div class="entry-thumbnail">
@@ -85,7 +85,7 @@ if(function_exists('putRevSlider')) {
 				</div>
 				<!-- END .entry-thumbnail -->
 
-			<!-- END col-12 -->
+			<!-- END col-xs-12 -->
 		</div>
 	<!-- END row -->
 	</div>
@@ -94,8 +94,8 @@ if(function_exists('putRevSlider')) {
 	
 	<!-- BEGIN row -->
 	<div class="row">
-		<!-- BEGIN col-9 -->
-		<div class="cont col-9">
+		<!-- BEGIN col-xs-9 -->
+		<div class="cont col-xs-9">
 
 			<!-- BEGIN #content -->
 			<div id="content" role="main">
@@ -116,13 +116,13 @@ if(function_exists('putRevSlider')) {
 			<!-- END #content -->
 
 		</div>
-		<!-- END col-9 -->
+		<!-- END col-xs-9 -->
 
 	<?php endwhile; ?>
 	<?php // END the loop ?>
 
-		<!-- BEGIN col-3 -->
-		<div class="side col-3">
+		<!-- BEGIN col-xs-3 -->
+		<div class="side col-xs-3">
 
 			<!-- BEGIN #secondary -->
 			<div id="sidebar" role="complementary">
@@ -136,7 +136,7 @@ if(function_exists('putRevSlider')) {
 			</div>
 			<!-- END #secondary -->
 
-		<!-- END col-3 -->
+		<!-- END col-xs-3 -->
 		</div>
 
 	<!-- END row -->

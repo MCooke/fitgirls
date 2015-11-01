@@ -27,8 +27,8 @@
 
 		<!-- BEGIN row -->
 		<div class="row">
-			<!-- BEGIN col-9 -->
-			<div class="col-9">
+			<!-- BEGIN col-xs-9 -->
+			<div class="col-xs-9">
 
 				<?php
 				if (get_option('lol_check_breadcumbs')  == 'true') {
@@ -75,7 +75,7 @@
 
 			</div>
 			<?php get_sidebar(); ?>
-			<!-- END col-9 -->
+			<!-- END col-xs-9 -->
 		</div>
 	</div>
 
