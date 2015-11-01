@@ -34,7 +34,7 @@ Template Name: Template Page Sidebar (Right)
 	<!-- BEGIN row -->
 	<div class="row">
 		<!-- BEGIN col-9 -->
-		<div class="col-xs-9">
+		<div class="col-xs-12 col-sm-9">
 
                     <?php
 		        if (get_option('lol_check_breadcumbs')  == 'true') {

@@ -18,12 +18,6 @@ Template Name: Start For Free
 
 <?php if (!get_post_meta($post->ID, 'lolfmkbox_headline_check', true) == 'yes') { ?>
 
-
-
-
-        <img class="nutrition-banner" src="http://www.thefitgirlrules.com/images/banners/home-main-banner-wide-2.jpg" width="100%">
-
-
 <?php } ?>
 
 <!-- BEGIN #Start For Free Page -->

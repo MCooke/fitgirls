@@ -12,10 +12,6 @@ Template Name:     About
 
 <?php if (!get_post_meta($post->ID, 'lolfmkbox_headline_check', true) == 'yes') { ?>
 
-
-
-        <img class="about-banner" src="http://www.thefitgirlrules.com/images/banners/home-main-banner-wide-2.jpg" width="100%">
-
 <?php } ?>
 
 <!-- BEGIN #About Page -->
@@ -29,8 +25,8 @@ Template Name:     About
 	
 	<!-- BEGIN row -->
 	<div class="row">
-		<!-- BEGIN col-xs-9 -->
-		<div class="col-xs-9">
+		<!-- BEGIN col-xs-12 col-sm-9 -->
+		<div class="col-xs-12 col-sm-9">
 
                     <?php
 		        if (get_option('lol_check_breadcumbs')  == 'true') {
@@ -59,7 +55,7 @@ Template Name:     About
 			<!-- END #content -->
 
 		</div>
-		<!-- END col-xs-9 -->
+		<!-- END col-xs-12 col-sm-9 -->
            <?php get_sidebar(); ?>
 	<?php endwhile; ?>
 	<?php // END the loop ?>

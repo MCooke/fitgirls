@@ -47,7 +47,7 @@ if (!function_exists('lolfmk_print_blog_full')) {
 		$post_query = new WP_Query($args);
 		while($post_query->have_posts()) : $post_query->the_post(); ?>
 
-			<div class="col-3">
+			<div class="category_item col-xs-6 col-sm-3">
 				<div class="post-item">
 					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" class="post-mask">
 						<div class="post-link">

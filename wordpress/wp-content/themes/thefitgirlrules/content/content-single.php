@@ -29,13 +29,6 @@
 		</div>
 		<!-- END .entry-conent -->
 
-                <div class="post-share">
-                  Share This On &nbsp; &nbsp;
-                  <a href="http://www.facebook.com/share.php?u=<?php print(urlencode(get_permalink())); ?>&title=<?php print(urlencode(the_title())); ?>"><i class="fa-facebook fa"></i></a>
-                  <a href="http://twitter.com/home?status=<?php print(urlencode(get_permalink())); ?>+<?php print(urlencode(the_title())); ?>" title="twitter" rel="nofollow" target="_blank"><i class="fa-twitter fa"></i></a>
-                  <a href="mailto:?body=<?php print(urlencode(get_permalink())); ?>&subject=<?php print(urlencode(the_title())); ?>"><i class="fa-envelope fa"></i></a>
-                </div>
-
 		<?php
 		global $multipage;
 		if ($multipage) {

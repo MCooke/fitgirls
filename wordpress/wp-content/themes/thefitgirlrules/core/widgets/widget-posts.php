@@ -36,7 +36,7 @@ class Lollum_Widget_Posts extends WP_Widget {
 		}
 		?>
 
-		<div class="lol-posts-widget row">
+		<div class="lol-posts-widget">
 		<?php 
 		$args = array(
 			'ignore_sticky_posts' => true,
@@ -44,10 +44,15 @@ class Lollum_Widget_Posts extends WP_Widget {
 		);
 		
 		$post_query = new WP_Query($args);
+		$i = 0;
 
 		while($post_query->have_posts()) : $post_query->the_post(); ?>
-
-			<div class="entry-post col-xs-3">
+			<?php
+				if ( $i == 0 ){ 	
+					print( '<div class="entry-post col-xs-offset-1 col-xs-2">');
+				} else {
+					print( '<div class="entry-post col-xs-2">');
+				} ?>
 				<?php if (has_post_thumbnail()) { ?>
 					<div class="entry-thumbnail">
 						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
@@ -66,7 +71,7 @@ class Lollum_Widget_Posts extends WP_Widget {
 					<div class="entry-date"><?php the_time('F j, Y'); ?></div>
 				</div>
 			</div>
-
+			<?php $i++; ?>
 		<?php endwhile; ?>
 		<?php wp_reset_postdata(); ?>
 		</div>

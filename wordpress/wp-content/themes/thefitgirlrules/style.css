@@ -954,17 +954,6 @@ input[type="submit"].small,
     margin-bottom: 30px;
 }
 
-#content .post:after,
-.search #content .type-page:after {
-    position: absolute;
-    display: block;
-    content: "";
-    margin-top: 10px;
-    height: 1px;
-    width: 100%;
-    background-color: #b9bcc0;
-}
-
 .search .type-page .meta-wrap.comments {
     display: none;
 }
@@ -3221,6 +3210,7 @@ input[type="submit"].small,
 
 .footer-link {
     padding: 0 0 0 20px;
+    color: #000;
 }
 
 .footer-link:hover {
@@ -7431,6 +7421,7 @@ dl.variation {
 }
 
 .post-share i {
+    color: #FBA09F;
     font-size: 18px;
     margin: 0 0 0 10px;
     -webkit-transition: all 0.2s ease;
@@ -7872,8 +7863,8 @@ label.inline {
     padding-bottom: 20px;
 }
 
-.recentPost-thin {
-    
+.category_item {
+    min-height: 400px;
 }
 
 
