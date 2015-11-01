@@ -80,8 +80,9 @@
 	
 		</div>
 		<!-- END col-xs-9 -->
+
+			<?php get_sidebar(); ?>
 </div>
-	<?php get_sidebar(); ?>
 
 <!-- END #main -->
 </div>

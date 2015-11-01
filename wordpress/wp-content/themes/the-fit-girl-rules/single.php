@@ -27,20 +27,29 @@
 
 		<!-- BEGIN row -->
 		<div class="row">
-			<!-- BEGIN col-xs-9 -->
-			<div class="col-xs-9">
+			
 
-				<?php
-				if (get_option('lol_check_breadcumbs')  == 'true') {
-					do_action('show_woo_breadcrumb');
-				}
-				?>
+			<?php
+			if (get_option('lol_check_breadcumbs')  == 'true') {
+				do_action('show_woo_breadcrumb');
+			}
+			?>
 
-				<!-- BEGIN #content -->
-				<div id="content" role="main">
 
-					<?php // START the loop ?>
-					<?php while (have_posts()) : the_post(); ?>
+			<?php // START the loop ?>
+			<?php while (have_posts()) : the_post(); ?>
+
+				<?php if (has_post_thumbnail()) : ?>
+
+					<div class="col-xs-12">
+						<?php the_post_thumbnail('post-thumb'); ?>
+					</div>
+
+				<?php endif; ?>
+					<!-- BEGIN col-xs-9 -->
+				<div class="col-xs-12 col-sm-9">
+					<!-- BEGIN #content -->
+					<div id="content" role="main">
 
 						<?php
 						if ('aside' == get_post_format()) {
@@ -65,6 +74,8 @@
 							get_template_part('content/content', 'single');
 						}
 						?>
+
+						<?php comments_template(); ?>
 
 					<?php endwhile; ?>
 					<?php // END the loop ?>

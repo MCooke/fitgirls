@@ -36,7 +36,7 @@ class Lollum_Widget_Posts extends WP_Widget {
 		}
 		?>
 
-		<div class="lol-posts-widget">
+		<div class="lol-posts-widget row">
 		<?php 
 		$args = array(
 			'ignore_sticky_posts' => true,
@@ -47,7 +47,7 @@ class Lollum_Widget_Posts extends WP_Widget {
 
 		while($post_query->have_posts()) : $post_query->the_post(); ?>
 
-			<div class="entry-post">
+			<div class="entry-post col-xs-3">
 				<?php if (has_post_thumbnail()) { ?>
 					<div class="entry-thumbnail">
 						<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">

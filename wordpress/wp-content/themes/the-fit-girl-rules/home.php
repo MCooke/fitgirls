@@ -8,6 +8,9 @@ Template Name:     Home
 
 ?>
 
+<!-- Home Page Template -->
+<body>
+
 <?php get_header(); ?>
 
 <?php if (!get_post_meta($post->ID, 'lolfmkbox_headline_check', true) == 'yes') { ?>
@@ -16,10 +19,9 @@ Template Name:     Home
 
 <?php // START the loop ?> 
 
-<!-- Home Page Template -->
-<body>
 
-  <div id="page" class="hfeed">
+
+  <div id="page" class="noBackground hfeed">
 
     <?php if (get_post_meta($post->ID, 'lolfmkbox_page_margin_check', true) == 'yes') {
       $lol_page_margin = 'no-margin';

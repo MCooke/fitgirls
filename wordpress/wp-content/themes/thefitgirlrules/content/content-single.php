@@ -16,16 +16,6 @@
 
 	<div class="post-wrap">
 
-		<!-- BEGIN .entry-thumbnail -->
-		<?php if (has_post_thumbnail()) : ?>
-
-			<div class="entry-thumbnail">
-			   <?php the_post_thumbnail('post-thumb'); ?>
-			</div>
-
-		<?php endif; ?>
-		<!-- END .entry-thumbnail -->
-
 		<!-- BEGIN .entry-header -->
 		<header class="entry-header">
 			<h1 class="entry-title"><?php the_title(); ?></h1>
