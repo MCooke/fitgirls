@@ -162,7 +162,7 @@ $animations_top_header_check = ((get_option('lol_check_top_header')  == 'true') 
 
 							<a href="http://www.thefitgirlrules.com">
 								<div id="logo">
-									<img src="http://www.thefitgirlrules.com/wp-content/uploads/2015/10/Logo-Template-reals.png" width="30%">
+									<img src="http://www.thefitgirlrules.com/wp-content/uploads/2015/10/white-logo.png" width="75px" height="75px">
 								</div>
 							</a>
 
