@@ -75,15 +75,44 @@ Template Name:     Home
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                       <!-- BEGIN .entry-conent -->
                       <div class="entry-content">
-                        <div class="recent-posts">                    
-                          <?php $the_query = new WP_Query( 'showposts=12' ); ?>
+                        <div class="recent-posts row">                    
+                          <?php $the_query = new WP_Query( 'showposts=10' );
+                          $i = 1; ?>
                           <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-                            <div class="recent-post">
-                              <a href="<?php the_permalink() ?>">
-                                <div class="thumbnail"><?php the_post_thumbnail(); ?></div>
-                                <h3><?php the_title(); ?></h3>
-                              </a>
-                            </div>
+                            <?php if ( $i < 5 ) { ?>
+                              <div class="recentPost col-xs-12">
+                                <a class="row" href="<?php the_permalink() ?>">
+                                  <div class="thumbnail col-xs-12"><img src="http://placehold.it/1000x500"></div>
+                                  <div class="col-xs-12">
+                                  <h2><?php the_title(); ?></h2>
+                                  <?php the_excerpt(); ?>
+                                  </div>
+                                </a>
+                              </div>
+                            <?php } ?>
+                            <?php if ( $i == 5 || $i == 6 ) { ?>
+                              <div class="recentPost col-xs-12 col-sm-6">
+                                <a class="row" href="<?php the_permalink() ?>">
+                                  <div class="thumbnail col-xs-12"><img src="http://placehold.it/1000x500"></div>
+                                  <div class="col-xs-12">
+                                    <h2><?php the_title(); ?></h2>
+                                    <?php the_excerpt(); ?>
+                                  </div>
+                                </a>
+                              </div>
+                            <?php } ?>
+                            <?php if ( $i > 6 ) { ?>
+                              <div class="recentPost col-xs-12">
+                                <a class="row" href="<?php the_permalink() ?>">
+                                  <div class="thumbnail col-xs-4"><img src="http://placehold.it/1000x500"></div>
+                                  <div class="col-xs-8">
+                                    <h3><?php the_title(); ?></h3>
+                                    <?php the_excerpt(); ?>
+                                  </div>
+                                </a>
+                              </div>
+                            <?php } ?>
+                            <?php $i++; ?>
                           <?php endwhile;?>
                         </div>
                       </div>
