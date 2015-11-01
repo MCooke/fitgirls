@@ -102,7 +102,7 @@ Template Name:     Home
                               </div>
                             <?php } ?>
                             <?php if ( $i > 6 ) { ?>
-                              <div class="recentPost col-xs-12">
+                              <div class="recentPost recentPost-thin col-xs-12">
                                 <a class="row" href="<?php the_permalink() ?>">
                                   <div class="thumbnail col-xs-4"><img src="http://placehold.it/1000x500"></div>
                                   <div class="col-xs-8">
