@@ -1,0 +1,17 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">lolfmk-portfolio</custom-type>
+		<custom-type translate="1">lolfmk-team</custom-type>
+		<custom-type translate="1">lolfmk-faq</custom-type>
+		<custom-type translate="1">lolfmk-job</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio-categories</taxonomy>
+		<taxonomy translate="1">faqs-categories</taxonomy>
+		<taxonomy translate="1">job-categories</taxonomy>
+	</taxonomies>
+	<custom-fields>
+		<custom-field action="ignore">page-xml-val</custom-field>
+		<custom-field action="copy">_lolfmk_love_count</custom-field>
+	</custom-fields>
+</wpml-config>

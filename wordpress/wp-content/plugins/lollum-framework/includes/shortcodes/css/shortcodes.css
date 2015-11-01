@@ -1,0 +1,78 @@
+/******************************
+* skill
+******************************/
+
+.lol-skill {
+	margin-bottom: 12px;
+	position: relative;
+	display: block;
+	height: 15px;
+	font-size: 13px;
+	line-height: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #ebebeb;
+}
+.lol-skill .lol-bar {
+	width: 0;
+	display: block;
+	height: 15px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #2a92e5;
+}
+.lol-skill-name {
+	margin-bottom: 8px;
+	display: block;
+}
+
+/******************************
+* button
+******************************/
+
+.lol-button {
+	padding: 15px 40px;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 600;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: none;
+	color: #fff!important;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	-moz-box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
+	background-color: #2a92e5;
+}
+.lol-button:hover {
+	color: #fff!important;
+	text-decoration: none;
+	background-color: #1477c7;
+}
+.lol-button.big {
+	padding: 20px 45px;
+	font-size: 14px;
+}
+.lol-button.small {
+	padding: 10px 35px;
+}
+
+/******************************
+* dropcap
+******************************/
+
+.lol-dropcap {
+	padding: 7px 7px 7px 0;
+	display: inline-block;
+	float: left;
+	font-size: 50px;
+	font-weight: 600;
+}

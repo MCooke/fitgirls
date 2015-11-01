@@ -1,0 +1,1521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lollum Framework\n"
+"POT-Creation-Date: 2014-02-13 23:48+0100\n"
+"PO-Revision-Date: 2014-02-13 23:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: Lollum <support@lollum.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../builder/blocks-builder.php:83
+msgid "Add page element"
+msgstr ""
+
+#: ../builder/blocks-builder.php:84
+msgid "Select an element and add it on the page."
+msgstr ""
+
+#: ../builder/functions-builder.php:323
+msgid "Please enable the DOM extension in your PHP configuration"
+msgstr ""
+
+#: ../builder/utility-builder.php:144
+msgid "Upload"
+msgstr ""
+
+#: ../builder/utility-builder.php:186
+msgid "Add element"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:38
+#: ../builder/blocks/block-banner.php:42
+#: ../builder/blocks/block-feature.php:34 ../builder/blocks/block-video.php:37
+#: ../builder/blocks/blockquote.php:32 ../builder/blocks/blog-full.php:33
+#: ../builder/blocks/blog-list.php:35 ../builder/blocks/brands-parallax.php:37
+#: ../builder/blocks/brands.php:33 ../builder/blocks/call-to-action.php:37
+#: ../builder/blocks/column.php:33 ../builder/blocks/countdown.php:39
+#: ../builder/blocks/divider.php:32 ../builder/blocks/embed-video.php:33
+#: ../builder/blocks/faqs.php:36 ../builder/blocks/full-map.php:37
+#: ../builder/blocks/heading-parallax.php:38
+#: ../builder/blocks/heading-small.php:32
+#: ../builder/blocks/heading-wide.php:31 ../builder/blocks/heading.php:32
+#: ../builder/blocks/image-parallax.php:34 ../builder/blocks/image-text.php:36
+#: ../builder/blocks/image.php:38 ../builder/blocks/info.php:38
+#: ../builder/blocks/job-list.php:32 ../builder/blocks/mailchimp.php:33
+#: ../builder/blocks/map.php:37 ../builder/blocks/member.php:34
+#: ../builder/blocks/mini-service-column.php:41
+#: ../builder/blocks/portfolio-filter.php:35
+#: ../builder/blocks/portfolio-full.php:33
+#: ../builder/blocks/portfolio-list.php:34 ../builder/blocks/post.php:33
+#: ../builder/blocks/progress-circle.php:34
+#: ../builder/blocks/progress-number.php:35 ../builder/blocks/project.php:33
+#: ../builder/blocks/service-column.php:40 ../builder/blocks/space.php:31
+#: ../builder/blocks/testimonial-full.php:38
+#: ../builder/blocks/testimonial.php:33 ../builder/blocks/text-banner.php:34
+#: ../builder/blocks/toggle.php:33
+msgid "Element ID"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:41
+#: ../builder/blocks/block-banner.php:45
+#: ../builder/blocks/block-feature.php:37 ../builder/blocks/block-video.php:40
+#: ../builder/blocks/blockquote.php:35 ../builder/blocks/blog-full.php:36
+#: ../builder/blocks/blog-list.php:38 ../builder/blocks/brands-parallax.php:40
+#: ../builder/blocks/brands.php:36 ../builder/blocks/call-to-action.php:40
+#: ../builder/blocks/column.php:36 ../builder/blocks/countdown.php:42
+#: ../builder/blocks/divider.php:35 ../builder/blocks/embed-video.php:36
+#: ../builder/blocks/faqs.php:39 ../builder/blocks/full-map.php:40
+#: ../builder/blocks/heading-parallax.php:41
+#: ../builder/blocks/heading-small.php:35
+#: ../builder/blocks/heading-wide.php:34 ../builder/blocks/heading.php:35
+#: ../builder/blocks/image-parallax.php:37 ../builder/blocks/image-text.php:39
+#: ../builder/blocks/image.php:41 ../builder/blocks/info.php:41
+#: ../builder/blocks/job-list.php:35 ../builder/blocks/mailchimp.php:36
+#: ../builder/blocks/map.php:40 ../builder/blocks/member.php:37
+#: ../builder/blocks/mini-service-column.php:44
+#: ../builder/blocks/portfolio-filter.php:38
+#: ../builder/blocks/portfolio-full.php:36
+#: ../builder/blocks/portfolio-list.php:37 ../builder/blocks/post.php:36
+#: ../builder/blocks/progress-circle.php:37
+#: ../builder/blocks/progress-number.php:38 ../builder/blocks/project.php:36
+#: ../builder/blocks/service-column.php:43 ../builder/blocks/space.php:34
+#: ../builder/blocks/testimonial-full.php:41
+#: ../builder/blocks/testimonial.php:36 ../builder/blocks/text-banner.php:37
+#: ../builder/blocks/toggle.php:36
+msgid "The ID of the element (optional)"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:51
+#: ../builder/blocks/block-banner.php:55 ../builder/blocks/block-video.php:50
+#: ../builder/blocks/call-to-action.php:50 ../builder/blocks/countdown.php:52
+#: ../builder/blocks/mailchimp.php:46
+#: ../builder/blocks/testimonial-full.php:51
+msgid "Block Title"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:54
+#: ../builder/blocks/block-banner.php:58
+#: ../builder/blocks/block-feature.php:63 ../builder/blocks/block-video.php:53
+#: ../builder/blocks/call-to-action.php:53 ../builder/blocks/countdown.php:55
+#: ../builder/blocks/mailchimp.php:49
+#: ../builder/blocks/testimonial-full.php:54
+#: ../builder/blocks/text-banner.php:63
+msgid "The title of the block"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:64
+#: ../builder/blocks/block-banner.php:68
+msgid "Block Content"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:67
+#: ../builder/blocks/block-banner.php:71
+#: ../builder/blocks/block-feature.php:76
+msgid "The content of the block"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:77
+#: ../builder/blocks/block-banner.php:81 ../builder/blocks/block-video.php:76
+#: ../builder/blocks/call-to-action.php:63 ../builder/blocks/countdown.php:65
+#: ../builder/blocks/heading-parallax.php:77
+#: ../builder/blocks/testimonial-full.php:64
+msgid "Text Color"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:81
+#: ../builder/blocks/block-banner.php:85 ../builder/blocks/block-video.php:80
+#: ../builder/blocks/call-to-action.php:67 ../builder/blocks/countdown.php:69
+#: ../builder/blocks/heading-parallax.php:81
+#: ../builder/blocks/testimonial-full.php:68
+msgid "Select the color of the text"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:91
+#: ../builder/blocks/block-banner.php:147
+#: ../builder/blocks/block-video.php:103
+#: ../builder/blocks/brands-parallax.php:64
+#: ../builder/blocks/call-to-action.php:103
+#: ../builder/blocks/countdown.php:105
+#: ../builder/blocks/heading-parallax.php:91
+#: ../builder/blocks/testimonial-full.php:78
+msgid "Background Color"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:94
+#: ../builder/blocks/block-banner.php:150
+#: ../builder/blocks/block-video.php:106
+#: ../builder/blocks/brands-parallax.php:67
+#: ../builder/blocks/call-to-action.php:106
+#: ../builder/blocks/countdown.php:108
+#: ../builder/blocks/heading-parallax.php:94
+#: ../builder/blocks/testimonial-full.php:81
+msgid "Select a background color"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:104
+#: ../builder/blocks/block-banner.php:160
+#: ../builder/blocks/testimonial-full.php:91
+msgid "Background Image"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:107
+#: ../builder/blocks/block-banner.php:98
+#: ../builder/blocks/block-banner.php:163
+#: ../builder/blocks/block-video.php:119
+#: ../builder/blocks/brands-parallax.php:80
+#: ../builder/blocks/brands-parallax.php:146
+#: ../builder/blocks/brands-parallax.php:200 ../builder/blocks/brands.php:97
+#: ../builder/blocks/brands.php:151 ../builder/blocks/countdown.php:121
+#: ../builder/blocks/heading-parallax.php:107
+#: ../builder/blocks/image-parallax.php:50 ../builder/blocks/image-text.php:78
+#: ../builder/blocks/image.php:80 ../builder/blocks/testimonial-full.php:94
+#: ../builder/blocks/testimonial.php:116 ../builder/blocks/testimonial.php:182
+msgid "Upload an image"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:117
+#: ../builder/blocks/block-banner.php:173
+#: ../builder/blocks/block-video.php:129
+#: ../builder/blocks/brands-parallax.php:90
+#: ../builder/blocks/countdown.php:131
+#: ../builder/blocks/heading-parallax.php:117
+#: ../builder/blocks/image-parallax.php:60
+#: ../builder/blocks/testimonial-full.php:104
+msgid "Parallax Effect"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:121
+#: ../builder/blocks/block-banner.php:177
+#: ../builder/blocks/block-video.php:133
+#: ../builder/blocks/brands-parallax.php:94
+#: ../builder/blocks/countdown.php:135
+#: ../builder/blocks/heading-parallax.php:121
+#: ../builder/blocks/image-parallax.php:64
+#: ../builder/blocks/testimonial-full.php:108
+msgid "Select \"parallax-yes\" for a parallax effect"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:133
+#: ../builder/blocks/block-banner.php:189
+#: ../builder/blocks/brands-parallax.php:106
+#: ../builder/blocks/call-to-action.php:118
+#: ../builder/blocks/countdown.php:147 ../builder/blocks/full-map.php:120
+#: ../builder/blocks/heading-parallax.php:133
+#: ../builder/blocks/image-parallax.php:76
+#: ../builder/blocks/portfolio-filter.php:92
+#: ../builder/blocks/testimonial-full.php:120
+msgid "Margin Bottom"
+msgstr ""
+
+#: ../builder/blocks/block-banner-alt.php:137
+#: ../builder/blocks/block-banner.php:193
+#: ../builder/blocks/brands-parallax.php:110
+#: ../builder/blocks/call-to-action.php:122
+#: ../builder/blocks/countdown.php:151 ../builder/blocks/full-map.php:124
+#: ../builder/blocks/heading-parallax.php:137
+#: ../builder/blocks/image-parallax.php:80
+#: ../builder/blocks/portfolio-filter.php:96
+#: ../builder/blocks/testimonial-full.php:124
+msgid "Select \"no\" to remove the margin of this block"
+msgstr ""
+
+#: ../builder/blocks/block-banner.php:95
+msgid "Block Image"
+msgstr ""
+
+#: ../builder/blocks/block-banner.php:108
+#: ../builder/blocks/brands-parallax.php:154
+#: ../builder/blocks/brands-parallax.php:208 ../builder/blocks/brands.php:105
+#: ../builder/blocks/brands.php:159 ../builder/blocks/image.php:64
+msgid "Alt Image"
+msgstr ""
+
+#: ../builder/blocks/block-banner.php:111
+#: ../builder/blocks/brands-parallax.php:157
+#: ../builder/blocks/brands-parallax.php:211 ../builder/blocks/brands.php:108
+#: ../builder/blocks/brands.php:162 ../builder/blocks/image.php:67
+msgid "Type the alt attribute of your image"
+msgstr ""
+
+#: ../builder/blocks/block-banner.php:121
+#: ../builder/blocks/call-to-action.php:77 ../builder/blocks/mailchimp.php:72
+msgid "Button Text"
+msgstr ""
+
+#: ../builder/blocks/block-banner.php:124
+#: ../builder/blocks/call-to-action.php:80 ../builder/blocks/mailchimp.php:75
+msgid "The text of the button"
+msgstr ""
+
+#: ../builder/blocks/block-banner.php:134
+#: ../builder/blocks/call-to-action.php:90
+msgid "Button URL"
+msgstr ""
+
+#: ../builder/blocks/block-banner.php:137
+#: ../builder/blocks/call-to-action.php:93
+msgid "The URL of the button"
+msgstr ""
+
+#: ../builder/blocks/block-feature.php:47 ../builder/blocks/blog-full.php:46
+#: ../builder/blocks/blog-list.php:48 ../builder/blocks/brands.php:46
+#: ../builder/blocks/column.php:46 ../builder/blocks/embed-video.php:46
+#: ../builder/blocks/faqs.php:49 ../builder/blocks/image-text.php:49
+#: ../builder/blocks/image.php:51 ../builder/blocks/info.php:51
+#: ../builder/blocks/map.php:50 ../builder/blocks/member.php:47
+#: ../builder/blocks/portfolio-full.php:46
+#: ../builder/blocks/portfolio-list.php:47 ../builder/blocks/post.php:46
+#: ../builder/blocks/progress-circle.php:47 ../builder/blocks/project.php:46
+#: ../builder/blocks/testimonial.php:46 ../builder/blocks/text-banner.php:47
+#: ../builder/blocks/toggle.php:46
+msgid "Header Text"
+msgstr ""
+
+#: ../builder/blocks/block-feature.php:50 ../builder/blocks/blog-full.php:49
+#: ../builder/blocks/blog-list.php:51 ../builder/blocks/brands.php:49
+#: ../builder/blocks/column.php:49 ../builder/blocks/embed-video.php:49
+#: ../builder/blocks/faqs.php:52 ../builder/blocks/image-text.php:52
+#: ../builder/blocks/image.php:54 ../builder/blocks/info.php:54
+#: ../builder/blocks/map.php:53 ../builder/blocks/member.php:50
+#: ../builder/blocks/portfolio-full.php:49
+#: ../builder/blocks/portfolio-list.php:50 ../builder/blocks/post.php:49
+#: ../builder/blocks/progress-circle.php:50 ../builder/blocks/project.php:49
+#: ../builder/blocks/testimonial.php:49 ../builder/blocks/text-banner.php:50
+#: ../builder/blocks/toggle.php:49
+msgid "The text of the header (optional)"
+msgstr ""
+
+#: ../builder/blocks/block-feature.php:60
+msgid "Feature Title"
+msgstr ""
+
+#: ../builder/blocks/block-feature.php:73
+msgid "Feature Content"
+msgstr ""
+
+#: ../builder/blocks/block-feature.php:86
+msgid "Feature Image"
+msgstr ""
+
+#: ../builder/blocks/block-feature.php:89
+msgid "The image of the block"
+msgstr ""
+
+#: ../builder/blocks/block-video.php:63
+msgid "Block Subtitle"
+msgstr ""
+
+#: ../builder/blocks/block-video.php:66 ../builder/blocks/text-banner.php:76
+msgid "The subtitle of the block"
+msgstr ""
+
+#: ../builder/blocks/block-video.php:90 ../builder/blocks/embed-video.php:59
+#: ../metaboxes/portfolio-metaboxes.php:170
+#: ../metaboxes/post-formats-meta.php:50
+#: ../metaboxes/post-formats-meta.php:120
+#: ../metaboxes/post-formats-meta.php:303
+msgid "Embed Code"
+msgstr ""
+
+#: ../builder/blocks/block-video.php:93 ../builder/blocks/embed-video.php:62
+msgid "The embed code of the video (Youtube and Vimeo)"
+msgstr ""
+
+#: ../builder/blocks/block-video.php:116
+#: ../builder/blocks/brands-parallax.php:77
+#: ../builder/blocks/countdown.php:118
+#: ../builder/blocks/heading-parallax.php:104
+#: ../builder/blocks/image-parallax.php:47
+msgid "Image Background"
+msgstr ""
+
+#: ../builder/blocks/blockquote.php:45
+msgid "Blockquote Text"
+msgstr ""
+
+#: ../builder/blocks/blockquote.php:48
+msgid "The content of the blockquote"
+msgstr ""
+
+#: ../builder/blocks/blockquote.php:58
+msgid "Blockquote Author"
+msgstr ""
+
+#: ../builder/blocks/blockquote.php:61
+msgid "The author of the blockquote"
+msgstr ""
+
+#: ../builder/blocks/blog-full.php:59 ../builder/blocks/blog-list.php:74
+msgid "Blog Type"
+msgstr ""
+
+#: ../builder/blocks/blog-full.php:63 ../builder/blocks/blog-list.php:78
+msgid "Display your posts sorted by date, by category or in random order"
+msgstr ""
+
+#: ../builder/blocks/blog-full.php:79 ../builder/blocks/blog-list.php:94
+msgid "Post Category"
+msgstr ""
+
+#: ../builder/blocks/blog-full.php:83 ../builder/blocks/blog-list.php:98
+msgid ""
+"Select your category (works only if you select \"category\" in \"Blog Type\")"
+msgstr ""
+
+#: ../builder/blocks/blog-list.php:61
+msgid "Number of Posts"
+msgstr ""
+
+#: ../builder/blocks/blog-list.php:64
+msgid "Type the number of the posts"
+msgstr ""
+
+#: ../builder/blocks/brands-parallax.php:50 ../builder/blocks/brands.php:59
+msgid "Number of brands"
+msgstr ""
+
+#: ../builder/blocks/brands-parallax.php:54
+msgid "Select the number of the brands per row"
+msgstr ""
+
+#: ../builder/blocks/brands-parallax.php:121 ../builder/blocks/brands.php:72
+msgid "Images"
+msgstr ""
+
+#: ../builder/blocks/brands-parallax.php:124 ../builder/blocks/brands.php:75
+msgid "Add brand"
+msgstr ""
+
+#: ../builder/blocks/brands-parallax.php:126 ../builder/blocks/brands.php:77
+msgid "Add more images"
+msgstr ""
+
+#: ../builder/blocks/brands-parallax.php:143
+#: ../builder/blocks/brands-parallax.php:197 ../builder/blocks/brands.php:94
+#: ../builder/blocks/brands.php:148 ../builder/blocks/image-text.php:75
+#: ../builder/blocks/image.php:77
+msgid "Image URL"
+msgstr ""
+
+#: ../builder/blocks/brands-parallax.php:165
+#: ../builder/blocks/brands-parallax.php:219 ../builder/blocks/brands.php:116
+#: ../builder/blocks/brands.php:170
+msgid "Link Image"
+msgstr ""
+
+#: ../builder/blocks/brands-parallax.php:168
+#: ../builder/blocks/brands-parallax.php:222 ../builder/blocks/brands.php:119
+#: ../builder/blocks/brands.php:173
+msgid "Insert a URL for your image (optional)"
+msgstr ""
+
+#: ../builder/blocks/brands-parallax.php:173
+#: ../builder/blocks/brands-parallax.php:227 ../builder/blocks/brands.php:124
+#: ../builder/blocks/brands.php:178
+msgid "Delete brand"
+msgstr ""
+
+#: ../builder/blocks/brands.php:63
+msgid "Select the number of brands per row"
+msgstr ""
+
+#: ../builder/blocks/column.php:59
+msgid "Text Column"
+msgstr ""
+
+#: ../builder/blocks/column.php:62
+msgid "Type the text of your column"
+msgstr ""
+
+#: ../builder/blocks/countdown.php:79
+msgid "Event date"
+msgstr ""
+
+#: ../builder/blocks/countdown.php:82
+msgid "Select the event date (yyyy/mm/dd)"
+msgstr ""
+
+#: ../builder/blocks/countdown.php:92
+msgid "Event end text"
+msgstr ""
+
+#: ../builder/blocks/countdown.php:95
+msgid "Text that appears when the countdown reaches zero"
+msgstr ""
+
+#: ../builder/blocks/divider.php:45
+msgid "Divider Text"
+msgstr ""
+
+#: ../builder/blocks/divider.php:48
+msgid "The text of the divider"
+msgstr ""
+
+#: ../builder/blocks/faqs.php:62
+msgid "Layout"
+msgstr ""
+
+#: ../builder/blocks/faqs.php:66
+msgid "Select the layout of your faqs"
+msgstr ""
+
+#: ../builder/blocks/faqs.php:76 ../metaboxes/page-metaboxes.php:141
+msgid "Filterable"
+msgstr ""
+
+#: ../builder/blocks/faqs.php:80
+msgid "Select the state of the toggle on page load (layout 1 only)"
+msgstr ""
+
+#: ../builder/blocks/faqs.php:90
+msgid "FAQ Description"
+msgstr ""
+
+#: ../builder/blocks/faqs.php:93
+msgid "The desciption of this section (layout 2 only)"
+msgstr ""
+
+#: ../builder/blocks/faqs.php:111
+msgid "FAQ Category"
+msgstr ""
+
+#: ../builder/blocks/faqs.php:115
+msgid "Here you can filter your FAQs (layout 2 only)"
+msgstr ""
+
+#: ../builder/blocks/full-map.php:50 ../builder/blocks/map.php:63
+#: ../metaboxes/job-metaboxes.php:71
+msgid "Latitude"
+msgstr ""
+
+#: ../builder/blocks/full-map.php:53 ../builder/blocks/map.php:66
+msgid "The latitude of the place"
+msgstr ""
+
+#: ../builder/blocks/full-map.php:63 ../builder/blocks/map.php:76
+#: ../metaboxes/job-metaboxes.php:78
+msgid "Longitude"
+msgstr ""
+
+#: ../builder/blocks/full-map.php:66 ../builder/blocks/map.php:79
+msgid "The longitude of the place"
+msgstr ""
+
+#: ../builder/blocks/full-map.php:76 ../builder/blocks/map.php:89
+#: ../metaboxes/job-metaboxes.php:85
+msgid "Zoom"
+msgstr ""
+
+#: ../builder/blocks/full-map.php:80 ../builder/blocks/map.php:93
+msgid "The initial zoom of the map. A value from 0 to 19"
+msgstr ""
+
+#: ../builder/blocks/full-map.php:90 ../builder/blocks/map.php:103
+msgid "Map Size"
+msgstr ""
+
+#: ../builder/blocks/full-map.php:94 ../builder/blocks/map.php:107
+msgid "Select the size (height) of the map"
+msgstr ""
+
+#: ../builder/blocks/full-map.php:104 ../builder/blocks/map.php:117
+msgid "Map Marker"
+msgstr ""
+
+#: ../builder/blocks/full-map.php:108 ../builder/blocks/map.php:121
+msgid "Select \"yes\" to display the marker on the map"
+msgstr ""
+
+#: ../builder/blocks/heading-parallax.php:51
+#: ../builder/blocks/heading-small.php:45
+#: ../builder/blocks/heading-wide.php:44 ../builder/blocks/heading.php:45
+msgid "Heading Text"
+msgstr ""
+
+#: ../builder/blocks/heading-parallax.php:54
+#: ../builder/blocks/heading-small.php:48
+#: ../builder/blocks/heading-wide.php:47 ../builder/blocks/heading.php:48
+msgid "The text of the heading"
+msgstr ""
+
+#: ../builder/blocks/heading-parallax.php:64
+#: ../builder/blocks/heading-small.php:58 ../builder/blocks/heading.php:58
+msgid "Subtitle Heading"
+msgstr ""
+
+#: ../builder/blocks/heading-parallax.php:67
+#: ../builder/blocks/heading-small.php:61 ../builder/blocks/heading.php:61
+msgid "Add a subtitle in your heading"
+msgstr ""
+
+#: ../builder/blocks/image-text.php:62
+msgid "Text Image"
+msgstr ""
+
+#: ../builder/blocks/image-text.php:65
+msgid "Type the title of the block"
+msgstr ""
+
+#: ../builder/blocks/image-text.php:88 ../builder/blocks/image.php:90
+msgid "Image Link"
+msgstr ""
+
+#: ../builder/blocks/image-text.php:91 ../builder/blocks/image.php:93
+msgid "The URL to point to (optional)"
+msgstr ""
+
+#: ../builder/blocks/image.php:103
+msgid "Lightbox"
+msgstr ""
+
+#: ../builder/blocks/image.php:107
+msgid ""
+"Select \"yes\" to enable the lightbox feature. Remember that you need to "
+"insert the URL of this image in \"Image Link\""
+msgstr ""
+
+#: ../builder/blocks/image.php:117
+msgid "Image Alignment"
+msgstr ""
+
+#: ../builder/blocks/image.php:121
+msgid "Select the alignment of the image"
+msgstr ""
+
+#: ../builder/blocks/info.php:64
+msgid "Info Text"
+msgstr ""
+
+#: ../builder/blocks/info.php:67
+msgid "Type the text of your info block"
+msgstr ""
+
+#: ../builder/blocks/info.php:77
+msgid "Info Address"
+msgstr ""
+
+#: ../builder/blocks/info.php:80
+msgid "Type your company address"
+msgstr ""
+
+#: ../builder/blocks/info.php:90
+msgid "Info Tel"
+msgstr ""
+
+#: ../builder/blocks/info.php:93
+msgid "Type your company phone number"
+msgstr ""
+
+#: ../builder/blocks/info.php:103
+msgid "Info Fax"
+msgstr ""
+
+#: ../builder/blocks/info.php:106
+msgid "Type your company fax number"
+msgstr ""
+
+#: ../builder/blocks/info.php:116
+msgid "Info E-mail"
+msgstr ""
+
+#: ../builder/blocks/info.php:119
+msgid "Type your company email"
+msgstr ""
+
+#: ../builder/blocks/info.php:129
+msgid "Info Web"
+msgstr ""
+
+#: ../builder/blocks/info.php:132
+msgid "Type your company website"
+msgstr ""
+
+#: ../builder/blocks/job-list.php:54
+msgid "Job Category"
+msgstr ""
+
+#: ../builder/blocks/job-list.php:58
+msgid "Select the job category."
+msgstr ""
+
+#: ../builder/blocks/mailchimp.php:59
+msgid "Action URL"
+msgstr ""
+
+#: ../builder/blocks/mailchimp.php:62
+msgid "The URL for the form action (see documentation)."
+msgstr ""
+
+#: ../builder/blocks/member.php:70 ../post-types/register-post-types.php:52
+msgid "Member"
+msgstr ""
+
+#: ../builder/blocks/member.php:74
+msgid "Select a member of your team"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:54
+#: ../builder/blocks/service-column.php:53
+msgid "Service Column Title"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:57
+#: ../builder/blocks/service-column.php:56
+msgid "The title of the service column"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:67
+#: ../builder/blocks/service-column.php:66
+msgid "Content Service Column"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:70
+#: ../builder/blocks/service-column.php:69
+msgid "The content of your service column"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:82
+#: ../builder/blocks/mini-service-column.php:91
+#: ../builder/blocks/service-column.php:81
+#: ../builder/blocks/service-column.php:90
+msgid "Icon Service Column"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:85
+#: ../builder/blocks/service-column.php:84
+msgid ""
+"Select the icon of the column service (Reference <a href=\"http://"
+"fortawesome.github.io/Font-Awesome/icons/\">here</a>)"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:94
+#: ../builder/blocks/service-column.php:93
+msgid ""
+"Select the icon of the column service (Reference <a href=\"http://"
+"fontawesome.io/3.2.1/icons/\">here</a>)"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:106
+#: ../builder/blocks/service-column.php:105
+msgid "Service Column URL"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:109
+#: ../builder/blocks/service-column.php:108
+msgid "The URL of the service column"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:119
+msgid "Service Margin"
+msgstr ""
+
+#: ../builder/blocks/mini-service-column.php:123
+msgid "Select \"no-margin\" to group more than one row of mini service columns"
+msgstr ""
+
+#: ../builder/blocks/portfolio-filter.php:48
+#: ../builder/blocks/portfolio-full.php:59
+#: ../builder/blocks/portfolio-list.php:73
+msgid "Portfolio Type"
+msgstr ""
+
+#: ../builder/blocks/portfolio-filter.php:52
+#: ../builder/blocks/portfolio-full.php:63
+#: ../builder/blocks/portfolio-list.php:77
+msgid "Display your projects sorted by date, by \"loves\" or in random order"
+msgstr ""
+
+#: ../builder/blocks/portfolio-filter.php:62
+#: ../builder/blocks/portfolio-full.php:73
+#: ../builder/blocks/portfolio-list.php:60
+msgid "Number of Projects"
+msgstr ""
+
+#: ../builder/blocks/portfolio-filter.php:66
+#: ../builder/blocks/portfolio-full.php:77
+msgid "Select the number of projects"
+msgstr ""
+
+#: ../builder/blocks/portfolio-filter.php:76
+msgid "Display filter"
+msgstr ""
+
+#: ../builder/blocks/portfolio-filter.php:80
+msgid "Select \"yes\" to display the portfolio filter"
+msgstr ""
+
+#: ../builder/blocks/portfolio-list.php:63
+msgid "Type the number of the projects"
+msgstr ""
+
+#: ../builder/blocks/post.php:69
+msgid "Post Title"
+msgstr ""
+
+#: ../builder/blocks/post.php:73
+msgid "Select your post"
+msgstr ""
+
+#: ../builder/blocks/progress-circle.php:60
+msgid "Skill"
+msgstr ""
+
+#: ../builder/blocks/progress-circle.php:63
+msgid "The name of the skill"
+msgstr ""
+
+#: ../builder/blocks/progress-circle.php:73
+msgid "Level"
+msgstr ""
+
+#: ../builder/blocks/progress-circle.php:76
+msgid "The level of the skill"
+msgstr ""
+
+#: ../builder/blocks/progress-number.php:48
+msgid "Progress Number Description"
+msgstr ""
+
+#: ../builder/blocks/progress-number.php:51
+msgid "The description of the progress number"
+msgstr ""
+
+#: ../builder/blocks/progress-number.php:61
+msgid "From"
+msgstr ""
+
+#: ../builder/blocks/progress-number.php:64
+msgid "The number to start counting from"
+msgstr ""
+
+#: ../builder/blocks/progress-number.php:74
+msgid "To"
+msgstr ""
+
+#: ../builder/blocks/progress-number.php:77
+msgid "The number to stop counting at"
+msgstr ""
+
+#: ../builder/blocks/progress-number.php:87
+msgid "Icon Progress Number"
+msgstr ""
+
+#: ../builder/blocks/progress-number.php:90
+msgid ""
+"Select the icon of the progress number (Reference <a href=\"http://"
+"fortawesome.github.io/Font-Awesome/icons/\">here</a>)"
+msgstr ""
+
+#: ../builder/blocks/project.php:69
+msgid "Project Title"
+msgstr ""
+
+#: ../builder/blocks/project.php:73
+msgid "Select your project"
+msgstr ""
+
+#: ../builder/blocks/space.php:44
+msgid "Height amount"
+msgstr ""
+
+#: ../builder/blocks/space.php:47
+msgid "Type the height (in pixels) of this element"
+msgstr ""
+
+#: ../builder/blocks/testimonial-full.php:135
+#: ../builder/blocks/testimonial.php:58
+msgid "Testimonials"
+msgstr ""
+
+#: ../builder/blocks/testimonial-full.php:138
+#: ../builder/blocks/testimonial.php:61
+msgid "Add testimonial"
+msgstr ""
+
+#: ../builder/blocks/testimonial-full.php:140
+#: ../builder/blocks/testimonial.php:63
+msgid "Add more testimonials"
+msgstr ""
+
+#: ../builder/blocks/testimonial-full.php:157
+#: ../builder/blocks/testimonial-full.php:211
+#: ../builder/blocks/testimonial.php:80 ../builder/blocks/testimonial.php:146
+msgid "Text Testimonial"
+msgstr ""
+
+#: ../builder/blocks/testimonial-full.php:160
+#: ../builder/blocks/testimonial-full.php:214
+#: ../builder/blocks/testimonial.php:83 ../builder/blocks/testimonial.php:149
+msgid "The content of the testimonial"
+msgstr ""
+
+#: ../builder/blocks/testimonial-full.php:168
+#: ../builder/blocks/testimonial-full.php:222
+#: ../builder/blocks/testimonial.php:91 ../builder/blocks/testimonial.php:157
+msgid "Author Testimonial"
+msgstr ""
+
+#: ../builder/blocks/testimonial-full.php:171
+#: ../builder/blocks/testimonial-full.php:225
+#: ../builder/blocks/testimonial.php:94 ../builder/blocks/testimonial.php:160
+msgid "The author of the quote"
+msgstr ""
+
+#: ../builder/blocks/testimonial-full.php:179
+#: ../builder/blocks/testimonial-full.php:233
+#: ../builder/blocks/testimonial.php:102 ../builder/blocks/testimonial.php:168
+msgid "Subtitle Testimonial"
+msgstr ""
+
+#: ../builder/blocks/testimonial-full.php:182
+#: ../builder/blocks/testimonial-full.php:236
+#: ../builder/blocks/testimonial.php:105 ../builder/blocks/testimonial.php:171
+msgid ""
+"The subtitle of the author's quote (eg. \"Web Designer\", \"The New York "
+"Times\")"
+msgstr ""
+
+#: ../builder/blocks/testimonial-full.php:187
+#: ../builder/blocks/testimonial-full.php:241
+#: ../builder/blocks/testimonial.php:121 ../builder/blocks/testimonial.php:187
+msgid "Delete testimonial"
+msgstr ""
+
+#: ../builder/blocks/testimonial.php:113 ../builder/blocks/testimonial.php:179
+msgid "Testimonial avatar"
+msgstr ""
+
+#: ../builder/blocks/text-banner.php:60
+msgid "Banner Title"
+msgstr ""
+
+#: ../builder/blocks/text-banner.php:73
+msgid "Banner Subtitle"
+msgstr ""
+
+#: ../builder/blocks/text-banner.php:86
+msgid "Banner Link"
+msgstr ""
+
+#: ../builder/blocks/text-banner.php:89
+msgid "The link of the block"
+msgstr ""
+
+#: ../builder/blocks/toggle.php:61
+msgid "Add toggle"
+msgstr ""
+
+#: ../builder/blocks/toggle.php:63
+msgid "Add more toggles"
+msgstr ""
+
+#: ../builder/blocks/toggle.php:80 ../builder/blocks/toggle.php:135
+msgid "Toggle Title"
+msgstr ""
+
+#: ../builder/blocks/toggle.php:83 ../builder/blocks/toggle.php:138
+msgid "The text of the toggle title"
+msgstr ""
+
+#: ../builder/blocks/toggle.php:91 ../builder/blocks/toggle.php:146
+msgid "Toggle Content"
+msgstr ""
+
+#: ../builder/blocks/toggle.php:94 ../builder/blocks/toggle.php:149
+msgid "Type the content of the toggle"
+msgstr ""
+
+#: ../builder/blocks/toggle.php:102 ../builder/blocks/toggle.php:157
+msgid "Type"
+msgstr ""
+
+#: ../builder/blocks/toggle.php:106 ../builder/blocks/toggle.php:161
+msgid "Select the state of the toggle on page load"
+msgstr ""
+
+#: ../builder/blocks/toggle.php:111 ../builder/blocks/toggle.php:166
+msgid "Delete toggle"
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:29
+msgid "Job Location"
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:30
+msgid "Write the job location."
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:36
+msgid "Responsibilities"
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:37
+msgid "Write the responsibilities of the job."
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:43
+msgid "Essentials Skills"
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:44
+msgid "Write the essential skills needed for the job."
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:50
+msgid "Desirable Skills"
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:51
+msgid "Write the desirable skills needed for the job."
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:57
+msgid "Job Form"
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:58
+msgid ""
+"Paste the shortcode of the form for the job application (create it with "
+"Contact Form 7)."
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:65
+msgid ""
+"You can embed a map for the job location. Paste the latitude and longitude "
+"of the place."
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:72
+msgid "The latitude of the place."
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:79
+msgid "The longitude of the place."
+msgstr ""
+
+#: ../metaboxes/job-metaboxes.php:86
+msgid "The initial zoom of the map. A value from 0 to 19."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:29
+msgid "Hide Page Title"
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:30
+msgid "Check this to hide the title section in this page."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:37
+msgid ""
+"You can create a custom slider in every page with the Revolution Slider "
+"plugin."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:43
+msgid "Slider Revolution Alias"
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:44
+msgid "Type the alias of the slider.."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:57
+msgid "Link to Content"
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:58
+msgid "Type some text to display a link at the bottom of the slider."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:71
+msgid "No Margin"
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:72
+msgid ""
+"Check this to remove the bottom margin of the page. Useful when you use full "
+"width blocks (not available in pages with sidebars)."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:120
+msgid "Number of projects"
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:121
+msgid "Choose the number of the projects per page (-1 unlimited)."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:127
+msgid "Limit"
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:128
+msgid ""
+"Check this to limit the number of the projects on the page without "
+"pagination."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:134
+msgid "Project categories"
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:135
+msgid "Select the categories of your projects."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:142
+msgid "Select the type of your portfolio page, filterable or not."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:149
+msgid "Filterable Text"
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:150
+msgid "Type the description of the filter (optional)."
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:156
+msgid "Portfolio Layout"
+msgstr ""
+
+#: ../metaboxes/page-metaboxes.php:157
+msgid "Select the layout of your portfolio page."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:29
+msgid "Portfolio type"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:30
+msgid "Select the type of portfololio."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:37
+msgid "Portfolio description"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:38
+msgid "A little description of your project."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:44
+msgid "Portfolio date"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:45
+msgid "The date of your project."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:51
+msgid "Label Portfolio date"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:52
+#: ../metaboxes/portfolio-metaboxes.php:66
+#: ../metaboxes/portfolio-metaboxes.php:80
+#: ../metaboxes/portfolio-metaboxes.php:94
+msgid "The label of the field."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:58
+msgid "Portfolio client"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:59
+msgid "The client of your project."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:65
+msgid "Label Portfolio client"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:72
+msgid "Portfolio skills"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:73
+msgid "The skills needed for this project."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:79
+msgid "Label Portfolio skills"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:86
+msgid "Portfolio project URL"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:87
+msgid "The URL of your project."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:93
+msgid "Label Portfolio project URL"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:100
+msgid "Portfolio love count"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:101
+msgid "Portfolio love count."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:150
+#: ../metaboxes/post-formats-meta.php:30
+msgid ""
+"You can embed a video from Youtube or Vimeo (\"Embed Code\" section), or "
+"videos hosted on your server."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:156
+#: ../metaboxes/post-formats-meta.php:36
+msgid "MP4 Video"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:157
+#: ../metaboxes/post-formats-meta.php:37
+msgid "Upload a video from Media Library."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:163
+#: ../metaboxes/post-formats-meta.php:43
+msgid "Poster Video"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:164
+#: ../metaboxes/post-formats-meta.php:44
+msgid "The poster of the video (optional)."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:171
+#: ../metaboxes/post-formats-meta.php:51
+msgid "Embed code for no self-hosted videos (Youtube, Vimeo, etc)."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:224
+#: ../metaboxes/post-formats-meta.php:215
+msgid "Insert in this field the gallery shortcode."
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:230
+#: ../metaboxes/post-formats-meta.php:221
+msgid "Gallery Shortcode"
+msgstr ""
+
+#: ../metaboxes/portfolio-metaboxes.php:231
+#: ../metaboxes/post-formats-meta.php:222
+msgid "Insert the gallery shortcode."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:107
+msgid ""
+"You can embed an audio file from Soundcloud, etc., or songs hosted on your "
+"server."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:113
+msgid "MP3 Audio"
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:114
+msgid "Upload a song from Media Library."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:121
+msgid "Embed code for no self-hosted audio files (Soundcloud, etc)."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:171
+msgid "URL"
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:172
+msgid "The URL of your link (remember \"http://\")."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:269
+msgid "You can upload an image from Media Library or paste HTML code."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:275
+msgid "Image"
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:276
+msgid "Upload an image from Media Library."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:282
+msgid "Image Alt"
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:283
+msgid "The alternate text of the image."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:289
+msgid "Image W"
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:290
+msgid "The width of the image."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:296
+msgid "Image H"
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:297
+msgid "The height of the image."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:304
+msgid "Embed code for the image."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:362
+msgid "Author Quote"
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:363
+msgid "The author of the quote."
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:369
+msgid "Source Quote"
+msgstr ""
+
+#: ../metaboxes/post-formats-meta.php:370
+msgid "The source of the quote (remember \"http://\")."
+msgstr ""
+
+#: ../metaboxes/product-metaboxes.php:29
+msgid "Product Sidebar"
+msgstr ""
+
+#: ../metaboxes/product-metaboxes.php:30
+msgid "Select your single product page layout."
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:29
+msgid "Member description"
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:30
+msgid "Write a little description about the member."
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:36
+msgid "Member position"
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:37
+msgid "Write the position of your member team."
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:43
+msgid "Facebook URL"
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:44
+msgid "The URL of member's Facebook account (remember \"http://\")."
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:50
+msgid "Twitter URL"
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:51
+msgid "The URL of member's Twitter account (remember \"http://\")."
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:57
+msgid "Google Plus URL"
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:58
+msgid "The URL of member's Google Plus account (remember \"http://\")."
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:64
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:65
+msgid "The URL of member's Dribbble account (remember \"http://\")."
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:71
+msgid "Linkedin URL"
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:72
+msgid "The URL of member's Linkedin account (remember \"http://\")."
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:78
+msgid "Instagram URL"
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:79
+msgid "The URL of member's Instagram account (remember \"http://\")."
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:85
+msgid "Email"
+msgstr ""
+
+#: ../metaboxes/team-metaboxes.php:86
+msgid "The email of the member."
+msgstr ""
+
+#: ../post-types/register-post-types.php:24
+msgid "Portfolio"
+msgstr ""
+
+#: ../post-types/register-post-types.php:25
+msgid "Project"
+msgstr ""
+
+#: ../post-types/register-post-types.php:26
+#: ../post-types/register-post-types.php:53
+#: ../post-types/register-post-types.php:80
+#: ../post-types/register-post-types.php:107
+msgid "Add New"
+msgstr ""
+
+#: ../post-types/register-post-types.php:27
+msgid "Add New Project"
+msgstr ""
+
+#: ../post-types/register-post-types.php:28
+msgid "Edit Project"
+msgstr ""
+
+#: ../post-types/register-post-types.php:29
+msgid "New Project"
+msgstr ""
+
+#: ../post-types/register-post-types.php:30
+msgid "View Project"
+msgstr ""
+
+#: ../post-types/register-post-types.php:31
+msgid "Search Projects"
+msgstr ""
+
+#: ../post-types/register-post-types.php:32
+msgid "No project found"
+msgstr ""
+
+#: ../post-types/register-post-types.php:33
+msgid "No projects found in Trash"
+msgstr ""
+
+#: ../post-types/register-post-types.php:51
+msgid "Team"
+msgstr ""
+
+#: ../post-types/register-post-types.php:54
+msgid "Add New Member"
+msgstr ""
+
+#: ../post-types/register-post-types.php:55
+msgid "Edit Member"
+msgstr ""
+
+#: ../post-types/register-post-types.php:56
+msgid "New Member"
+msgstr ""
+
+#: ../post-types/register-post-types.php:57
+msgid "View Member"
+msgstr ""
+
+#: ../post-types/register-post-types.php:58
+msgid "Search Members"
+msgstr ""
+
+#: ../post-types/register-post-types.php:59
+msgid "No member found"
+msgstr ""
+
+#: ../post-types/register-post-types.php:60
+msgid "No members found in Trash"
+msgstr ""
+
+#: ../post-types/register-post-types.php:78
+#: ../post-types/register-post-types.php:79
+msgid "FAQ"
+msgstr ""
+
+#: ../post-types/register-post-types.php:81
+msgid "Add New FAQ"
+msgstr ""
+
+#: ../post-types/register-post-types.php:82
+msgid "Edit FAQ"
+msgstr ""
+
+#: ../post-types/register-post-types.php:83
+msgid "New FAQ"
+msgstr ""
+
+#: ../post-types/register-post-types.php:84
+msgid "View FAQ"
+msgstr ""
+
+#: ../post-types/register-post-types.php:85
+msgid "Search FAQs"
+msgstr ""
+
+#: ../post-types/register-post-types.php:86
+msgid "No FAQ found"
+msgstr ""
+
+#: ../post-types/register-post-types.php:87
+msgid "No FAQs found in Trash"
+msgstr ""
+
+#: ../post-types/register-post-types.php:105
+#: ../post-types/register-post-types.php:106
+msgid "Job"
+msgstr ""
+
+#: ../post-types/register-post-types.php:108
+msgid "Add New Job"
+msgstr ""
+
+#: ../post-types/register-post-types.php:109
+msgid "Edit Job"
+msgstr ""
+
+#: ../post-types/register-post-types.php:110
+msgid "New Job"
+msgstr ""
+
+#: ../post-types/register-post-types.php:111
+msgid "View Job"
+msgstr ""
+
+#: ../post-types/register-post-types.php:112
+msgid "Search Jobs"
+msgstr ""
+
+#: ../post-types/register-post-types.php:113
+msgid "No jobs found"
+msgstr ""
+
+#: ../post-types/register-post-types.php:114
+msgid "No jobs found in Trash"
+msgstr ""
