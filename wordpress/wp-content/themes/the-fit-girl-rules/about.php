@@ -25,8 +25,8 @@ Template Name:     About
 	
 	<!-- BEGIN row -->
 	<div class="row">
-		<!-- BEGIN col-xs-12 col-sm-9 -->
-		<div class="col-xs-12 col-sm-9">
+		<!-- BEGIN col-xs-12 col-sm-8 -->
+		<div class="col-xs-12 col-sm-8">
 
                     <?php
 		        if (get_option('lol_check_breadcumbs')  == 'true') {
@@ -55,7 +55,7 @@ Template Name:     About
 			<!-- END #content -->
 
 		</div>
-		<!-- END col-xs-12 col-sm-9 -->
+		<!-- END col-xs-12 col-sm-8 -->
            <?php get_sidebar(); ?>
 	<?php endwhile; ?>
 	<?php // END the loop ?>

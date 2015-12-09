@@ -34,7 +34,7 @@ Template Name: Template Page Sidebar (Right)
 	<!-- BEGIN row -->
 	<div class="row">
 		<!-- BEGIN col-9 -->
-		<div class="col-xs-12 col-sm-9">
+		<div class="col-xs-12 col-sm-8">
 
                     <?php
 		        if (get_option('lol_check_breadcumbs')  == 'true') {
@@ -72,7 +72,7 @@ Template Name: Template Page Sidebar (Right)
 		<div class="col-xs-3">
 
 			<!-- BEGIN #secondary -->
-			<div id="sidebar"role="complementary">
+			<div id="sidebar" role="complementary">
 				<!-- BEGIN sidebar -->
 				<?php if (!dynamic_sidebar('Page Sidebar')) : ?>
 					<aside id="search" class="widget widget_search">

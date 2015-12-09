@@ -36,7 +36,7 @@ class Lollum_Widget_Posts extends WP_Widget {
 		}
 		?>
 
-		<div class="lol-posts-widget">
+		<div class="lol-posts-widget row">
 		<?php 
 		$args = array(
 			'ignore_sticky_posts' => true,
@@ -49,9 +49,9 @@ class Lollum_Widget_Posts extends WP_Widget {
 		while($post_query->have_posts()) : $post_query->the_post(); ?>
 			<?php
 				if ( $i == 0 ){ 	
-					print( '<div class="entry-post col-xs-offset-1 col-xs-2">');
+					print( '<div class="entry-post col-xs-6 col-md-3">');
 				} else {
-					print( '<div class="entry-post col-xs-2">');
+					print( '<div class="entry-post col-xs-6 col-md-3">');
 				} ?>
 				<?php if (has_post_thumbnail()) { ?>
 					<div class="entry-thumbnail">

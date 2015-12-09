@@ -46,8 +46,8 @@
 					</div>
 
 				<?php endif; ?>
-					<!-- BEGIN col-xs-12 col-sm-9 -->
-				<div class="col-xs-12 col-sm-9">
+					<!-- BEGIN col-xs-12 col-sm-8 -->
+				<div class="col-xs-12 col-sm-8">
 					<!-- BEGIN #content -->
 					<div id="content" role="main">
 
@@ -86,7 +86,7 @@
 
 			</div>
 			<?php get_sidebar(); ?>
-			<!-- END col-xs-12 col-sm-9 -->
+			<!-- END col-xs-12 col-sm-8 -->
 		</div>
 	</div>
 

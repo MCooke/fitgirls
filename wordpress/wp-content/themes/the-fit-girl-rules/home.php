@@ -17,7 +17,19 @@ Template Name:     Home
 
 <?php } ?>
 
-<?php // START the loop ?> 
+<?php function custom_excerpt($new_length = 20, $new_more = '...') {
+add_filter('excerpt_length', function () use ($new_length) {
+return $new_length;
+}, 999);
+add_filter('excerpt_more', function () use ($new_more) {
+return $new_more;
+});
+$output = get_the_excerpt();
+$output = apply_filters('wptexturize', $output);
+$output = apply_filters('convert_chars', $output);
+$output = '<p>' . $output . '</p>';
+echo $output;
+}?> 
 
 
 
@@ -63,7 +75,7 @@ Template Name:     Home
             <article>
              <div class="container">
                <div class="row">
-                 <div class="col-xs-12 col-sm-9">
+                 <div class="col-xs-12 col-sm-8">
                    <div class="entry-content">
                     <!-- BEGIN #post -->
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -78,8 +90,13 @@ Template Name:     Home
                                 <a class="row" href="<?php the_permalink() ?>">
                                   <div class="thumbnail col-xs-12"><?php the_post_thumbnail(); ?></div>
                                   <div class="col-xs-12">
-                                  <h2><?php the_title(); ?></h2>
-                                  <?php the_excerpt(); ?>
+	                                  <header class="recentPost_header">
+	                                  	<h2 class="recentPost_title"><?php the_title(); ?></h2>
+	                                  	<div class="recentPost_meta">
+	                                  	<span class="meta-wrap"><?php the_date(); ?></span>
+	                                  	</div>
+	                                  </header>
+                                    <?php custom_excerpt(40, ' See more...') ?>
                                   </div>
                                 </a>
                               </div>
@@ -89,8 +106,13 @@ Template Name:     Home
                                 <a class="row" href="<?php the_permalink() ?>">
                                   <div class="thumbnail col-xs-12"><?php the_post_thumbnail(); ?></div>
                                   <div class="col-xs-12">
-                                    <h2><?php the_title(); ?></h2>
-                                    <?php the_excerpt(); ?>
+	                                  <header class="recentPost_header">
+	                                  	<h2 class="recentPost_title"><?php the_title(); ?></h2>
+	                                  	<div class="recentPost_meta">
+	                                  	<span class="meta-wrap"><?php the_date(); ?></span>
+	                                  	</div>
+	                                  </header>
+                                    <?php custom_excerpt(30, ' See more...') ?>
                                   </div>
                                 </a>
                               </div>
@@ -100,8 +122,13 @@ Template Name:     Home
                                 <a class="row" href="<?php the_permalink() ?>">
                                   <div class="thumbnail col-xs-4"><?php the_post_thumbnail(); ?></div>
                                   <div class="col-xs-8">
-                                    <h3><?php the_title(); ?></h3>
-                                    <?php the_excerpt(); ?>
+                                    <header class="recentPost_header">
+                                    	<h2 class="recentPost_title"><?php the_title(); ?></h2>
+                                    	<div class="recentPost_meta">
+                                    	<span class="meta-wrap"><?php the_date(); ?></span>
+                                    	</div>
+                                    </header>
+                                    <?php custom_excerpt(20, ' See more...') ?>
                                   </div>
                                 </a>
                               </div>
@@ -129,13 +156,15 @@ Template Name:     Home
             </div>
 
             <!-- END #main -->
-&nbsp;
-&nbsp;
-<h1 style="text-align: center;"> INSTAGRAM FEED </h2>
+						&nbsp;
+						&nbsp;
+						<h1 style="text-align: center;"> INSTAGRAM FEED </h2>
             <!-- SnapWidget -->
             <script src="http://snapwidget.com/js/snapwidget.js"></script>
-            <iframe src="http://snapwidget.com/p/widget/?id=z2sKUMZXuk&t=851" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
-          </div>
+            <div class="container">
+            	<iframe src="http://snapwidget.com/p/widget/?id=z2sKUMZXuk&t=851" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+            </div>
+        </div>
 
 
         </div>
