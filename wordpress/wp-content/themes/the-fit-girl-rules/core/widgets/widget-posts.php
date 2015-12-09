@@ -10,9 +10,6 @@
  *
  */ 
 
-
-// DOESNT GET HIT
-
 class Lollum_Widget_Posts extends WP_Widget {
 
 	function Lollum_Widget_Posts() {

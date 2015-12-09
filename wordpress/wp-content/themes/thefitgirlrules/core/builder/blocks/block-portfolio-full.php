@@ -54,7 +54,7 @@ if (!function_exists('lolfmk_print_portfolio_full')) {
 			$portfolio_description = get_post_meta($post->ID, 'lolfmkbox_portfolio_desc', true);
 			?>
 
-			<div class="col-xs-3">
+			<div class="col-3">
 				<div class="portfolio-item">
 					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" class="portfolio-mask">
 						<div class="portfolio-link">

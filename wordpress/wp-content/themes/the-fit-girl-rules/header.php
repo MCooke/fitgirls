@@ -49,7 +49,7 @@ $animations_top_header_check = ((get_option('lol_check_top_header')  == 'true') 
 
 	<link rel="icon" type="image/ico" href="http://www.thefitgirlrules.com/images/favicon.png">
 
-	<link href='https://fonts.googleapis.com/css?family=Oswald:300|Roboto+Condensed:400,700,400italic|Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:300|Roboto+Condensed:400,700,400italic|Roboto:100,100italic|Montserrat' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		
 	<!-- BEGIN WP -->

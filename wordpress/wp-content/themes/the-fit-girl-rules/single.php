@@ -42,7 +42,7 @@
 				<?php if (has_post_thumbnail()) : ?>
 
 					<div class="col-xs-12">
-						<?php the_post_thumbnail('post-thumb'); ?>
+						
 					</div>
 
 				<?php endif; ?>

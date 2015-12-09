@@ -51,28 +51,28 @@ if (!function_exists('lolfmk_size_items')) {
 
 		switch($item_args['size_item']) {
 			case '1-4':
-				echo '<div class="col-xs-3 lol-page-item" '.$id.'>';
+				echo '<div class="col-3 lol-page-item" '.$id.'>';
 				$lolfmk_full_size += 1/4;
 				break;
 			case '1-3':
-				echo '<div class="col-xs-4 lol-page-item " '.$id.'>';
+				echo '<div class="col-4 lol-page-item " '.$id.'>';
 				$lolfmk_full_size += 1/3;
 				break;
 			case '1-2':
-				echo '<div class="col-xs-6 lol-page-item" '.$id.'>';
+				echo '<div class="col-6 lol-page-item" '.$id.'>';
 				$lolfmk_full_size += 1/2;
 				break;
 			case '2-3':
-				echo '<div class="col-xs-8 lol-page-item" '.$id.'>';
+				echo '<div class="col-8 lol-page-item" '.$id.'>';
 				$lolfmk_full_size += 2/3;
 				break;
 			case '3-4':
-				echo '<div class="col-xs-9 lol-page-item" '.$id.'>';
+				echo '<div class="col-9 lol-page-item" '.$id.'>';
 				$lolfmk_full_size += 3/4;
 				break;
 			case '1-1':
 				if (!$is_full) { 
-					echo '<div class="col-xs-12 lol-page-item" '.$id.'>';
+					echo '<div class="col-12 lol-page-item" '.$id.'>';
 				}
 				$lolfmk_full_size += 1;
 				break;

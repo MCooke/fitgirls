@@ -43,19 +43,13 @@ Template Name:     Home
       <div class="flexslider">
         <ul class="slides">
           <li>
-            <img src="http://www.thefitgirlrules.com/images/banners/home-main-banner-wide-1.jpg">
+            <img src="http://www.thefitgirlrules.com/wp-content/uploads/2015/11/BANNER-41.jpg">
           </li>
           <li>
-            <img src="http://www.thefitgirlrules.com/images/banners/home-main-banner-wide-2.jpg">
+            <img src="http://www.thefitgirlrules.com/wp-content/uploads/2015/11/BANNER11.jpg">
           </li>
           <li>
-            <img src="http://www.thefitgirlrules.com/images/banners/home-main-banner-wide-3.jpg">
-          </li>
-          <li>
-            <img src="http://www.thefitgirlrules.com/images/banners/home-main-banner-wide-4.jpg">
-          </li>
-          <li>
-            <img src="http://www.thefitgirlrules.com/images/banners/home-main-banner-wide-5.jpg">
+            <img src="http://www.thefitgirlrules.com/wp-content/uploads/2015/11/BANNER21.jpg">
           </li>
         </ul>
       </div>
@@ -117,7 +111,7 @@ Template Name:     Home
                         </div>
                       </div>
                       <!-- END .entry-conent -->
-                      <a href="/blog">See all posts</a>
+                      <a class="showall" href="/blog">SEE ALL POSTS</a>
                     </article>
                     <!-- END #post -->
                   </div>
@@ -135,6 +129,9 @@ Template Name:     Home
             </div>
 
             <!-- END #main -->
+&nbsp;
+&nbsp;
+<h1 style="text-align: center;"> INSTAGRAM FEED </h2>
             <!-- SnapWidget -->
             <script src="http://snapwidget.com/js/snapwidget.js"></script>
             <iframe src="http://snapwidget.com/p/widget/?id=z2sKUMZXuk&t=851" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
